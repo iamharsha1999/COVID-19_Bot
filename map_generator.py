@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     back = Image.open('NEW.png')
     draw = ImageDraw.Draw(back)
-    font = ImageFont.truetype("Fonts/Rajdhani-Bold.ttf", 20)
+    font = ImageFont.truetype("Fonts/Rajdhani-Bold.ttf", 25)
     for i,st in enumerate(states[:-4]):
         count = new.loc[new['loc'] == st]['confirmedCases'].values
         count = int(count[0])
